@@ -1,34 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>  
 <html>
 <head>
 <style>
-.informations {
-  background-color: lightblue;
-  color: black;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+.error {color: #FF0000;}
 </style>
 </head>
+<body>  
+
 <body background="Tokyoretro.jpg">
-<img src="AleckSelf.jpg" alt="AleckSelf" width="200" height="300" class="center">
-
-<div class="informations">
-<h2>About Me</h2>
-<p>Hello I'm Aleck Celen but you can call me Aleck, my nickname is Alcene it is also my gamer tag among gaming applications like Steam or Epic Games.</p>
-</div> 
-
-<div class="informations">
-<h2>Hobbies</h2>
-<p>My Hobbies are playing games such as Apex Legends, League of Legends and Valorant. My second hobby is to draw I love drawing especially anime.</p>
-</div>
 
 <?php
 // define variables and set to empty values
@@ -150,3 +129,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 $conn->close();
 
 }
+
